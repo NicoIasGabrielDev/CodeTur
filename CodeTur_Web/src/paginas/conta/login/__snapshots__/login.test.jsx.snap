@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Verifica se esta mostrando o texto CodeTur 1`] = `
+<div>
+  <div>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark"
+    >
+      <a
+        class="navbar-brand"
+        href="/"
+      >
+        CODETUR
+      </a>
+      <button
+        aria-controls="responsive-navbar-nav"
+        aria-label="Toggle navigation"
+        class="navbar-toggler collapsed"
+        type="button"
+      >
+        <span
+          class="navbar-toggler-icon"
+        />
+      </button>
+      <div
+        class="navbar-collapse collapse"
+        id="responsive-navbar-nav"
+      >
+        <div
+          class="mr-auto navbar-nav"
+        />
+      </div>
+    </nav>
+    <div
+      class="form-height container"
+    >
+      <form
+        class="form-signin"
+      >
+        <h1>
+          Login
+        </h1>
+        <small>
+          Informe os dados Abaixo
+        </small>
+        <hr />
+        <div
+          class="form-group"
+        >
+          <label
+            class="form-label"
+            for="formBasicEmail"
+          >
+            Email 
+          </label>
+          <input
+            class="form-control"
+            id="formBasicEmail"
+            name="email"
+            placeholder="Informe o email"
+            required=""
+            type="email"
+            value=""
+          />
+        </div>
+        <div
+          class="form-group"
+        >
+          <label
+            class="form-label"
+            for="formBasicPassword"
+          >
+            Senha
+          </label>
+          <input
+            class="form-control"
+            id="formBasicPassword"
+            name="senha"
+            placeholder="Senha"
+            required=""
+            type="password"
+            value=""
+          />
+        </div>
+        <button
+          class="btn btn-primary"
+          type="submit"
+        >
+          Enviar
+        </button>
+        <br />
+        <br />
+        <a
+          href="/conta/resetar-senha"
+          style="margin-top: 30px;"
+        >
+          Esqueci a senha!
+        </a>
+      </form>
+    </div>
+    <footer
+      class="text-center"
+      style="margin-top: 70px;"
+    >
+      <h1>
+        CodeTur
+      </h1>
+      <small>
+        Desenvolvido por 
+        <a
+          href="https:/github.com/corujasdevbr"
+        >
+          Fernando Henrique
+        </a>
+      </small>
+    </footer>
+  </div>
+</div>
+`;
+
+exports[`renders without crashing 1`] = `<div />`;
